@@ -1,8 +1,11 @@
-interface ButtonLinkProps {
+export interface ButtonLinkProps {
   href: string;
   children?: React.ReactNode;
   className?: string;
   target?: string;
+  logo?: string;
+  UpperText?: string;
+  LowerText?: string;
 }
 function ButtonLink({ href, children, className, target }: ButtonLinkProps) {
   return (
