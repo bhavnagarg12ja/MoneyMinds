@@ -55,7 +55,7 @@ function Nav() {
           <Disclosure.Panel>
             {navLinks.map((link, index) => (
               <Disclosure.Button
-                className="block"
+                className="ml-8 block text-xl font-semibold data-[hover]:underline"
                 as="a"
                 href={link.href}
                 key={index}
