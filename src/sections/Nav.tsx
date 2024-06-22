@@ -42,7 +42,7 @@ function Nav() {
               href="https://play.google.com"
               target="_blank"
               children={"Install MoneyMinds"}
-              className="hidden rounded-xl bg-gray-800 px-5 py-3 text-white hover:bg-gray-900 active:bg-gray-600 sm:flex"
+              className="hidden rounded-xl bg-gray-700 px-5 py-3 text-white hover:bg-gray-900 active:bg-gray-600 sm:flex"
             />
             <Disclosure.Button className="rounded-md p-2 text-gray-500 hover:bg-gray-700 hover:text-white sm:hidden">
               {open ? (
