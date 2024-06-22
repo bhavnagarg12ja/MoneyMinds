@@ -57,7 +57,7 @@ function Nav() {
               <Disclosure.Button
                 className="block"
                 as="a"
-                href="#features"
+                href={link.href}
                 key={index}
               >
                 {link.children}
