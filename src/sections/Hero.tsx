@@ -1,4 +1,4 @@
-import StoreLinks from "../common/StoreLinks";
+import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 import Girl from "../assets/girl.png";
 import Phone from "../assets/feature-bills.png";
 
@@ -13,7 +13,7 @@ function Hero() {
           Seize Financial Freedom Anywhere with MoneyMinds. Unlock the
           Intelligent Path to Managing Your Money!
         </p>
-        <StoreLinks />
+        <StoreLinks type={BtnTypes.Standard} />
       </div>
       <div className="md:w-3/6 xl:mb-12 xl:overflow-hidden">
         <img
